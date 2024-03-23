@@ -1,5 +1,6 @@
 nav {
   display: flex;
+  justify-content: space-between;
 }
 body {
   font-family: "Merriweather", serif;
@@ -32,13 +33,25 @@ nav a {
   color: lightslategray;
 }
 .header {
-  background-color: aquamarine;
+  background-color: rgb(238, 247, 244);
+  background-image: url(../images/mountains-fall.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.profile {
-  width: 500px;
-}
+
 .banner {
   display: flex;
-  padding: 30px 30px 30px 150px;
+  padding: 10px 30px 0px 150px;
   align-items: center;
+}
+.banner .profile {
+  width: 500px;
+  height: 400px;
+}
+.banner-greeting {
+  font-size: 45px;
+}
+.banner-tittle {
+  font-size: 85px;
+  font-weight: 700;
 }
