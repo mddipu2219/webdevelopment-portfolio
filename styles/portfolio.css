@@ -60,6 +60,17 @@ nav a {
 .banner-content {
   max-width: 700px;
 }
+maina {
+  max-width: 1140px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+}
+.info-container {
+  text-align: center;
+}
 .section-tittle {
   color: rgb(20, 20, 20);
   text-align: center;
@@ -74,6 +85,6 @@ nav a {
 .about {
   padding: 130px;
   border-radius: 10px solid black;
-  background-color: rgb(206, 128, 195);
+  background-color: rgb(179, 129, 162);
   margin: 130px 50px;
 }
