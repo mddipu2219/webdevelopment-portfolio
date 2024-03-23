@@ -3,7 +3,7 @@ nav {
 }
 body {
   font-family: "Merriweather", serif;
-  font-weight: 300;
+  font-weight: 600px;
   font-style: normal;
 }
 nav > ul {
@@ -18,7 +18,7 @@ nav li {
   color: white;
   text-align: center;
   background-color: orange;
-  padding: 10px 15px;
+  padding: 5px 15px;
   border: none;
 }
 .orange {
@@ -30,4 +30,15 @@ nav li {
 nav a {
   text-decoration: none;
   color: lightslategray;
+}
+.header {
+  background-color: aquamarine;
+}
+.profile {
+  width: 500px;
+}
+.banner {
+  display: flex;
+  padding: 30px 30px 30px 150px;
+  align-items: center;
 }
