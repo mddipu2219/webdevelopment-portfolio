@@ -88,7 +88,7 @@ maina {
   background-color: rgb(179, 129, 162);
   margin: 130px 50px;
 }
-.what-i-do-tittle {
+.section-tittle {
   text-align: center;
 }
 .skill-pic {
@@ -98,9 +98,23 @@ maina {
 #skill-div {
   display: flex;
   justify-content: space-between;
+  gap: 10px;
 }
 .skill-section {
   padding: 50px 100px;
   margin: 50px;
-  background-color: rgb(128, 168, 202);
+  background-color: white;
+}
+.section-description {
+  padding: 30px 50px;
+  text-align: center;
+}
+/*  resume section */
+.resume-column-tittle {
+  color: rgb(31, 28, 28);
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-container {
+  display: flex;
 }
