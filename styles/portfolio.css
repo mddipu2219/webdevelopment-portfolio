@@ -88,3 +88,19 @@ maina {
   background-color: rgb(179, 129, 162);
   margin: 130px 50px;
 }
+.what-i-do-tittle {
+  text-align: center;
+}
+.skill-pic {
+  width: 100px;
+  height: 100px;
+}
+#skill-div {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-section {
+  padding: 50px 100px;
+  margin: 50px;
+  background-color: rgb(128, 168, 202);
+}
