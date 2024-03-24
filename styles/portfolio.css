@@ -117,4 +117,16 @@ maina {
 }
 .resume-container {
   display: flex;
+  gap: 15px;
+}
+.font-item-description {
+  color: rgb(241, 213, 175);
+}
+.resume-tittle-institute {
+  font-size: 25px;
+  font-weight: 600;
+}
+/*  */
+.download-cv {
+  text-align: center;
 }
