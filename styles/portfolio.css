@@ -130,3 +130,14 @@ maina {
 .download-cv {
   text-align: center;
 }
+/* footer */
+footer {
+  display: flex;
+  padding: 130px 200px;
+  margin-top: 100px;
+  background-color: rgb(76, 107, 97);
+}
+div a img {
+  height: 20px;
+  width: 25px;
+}
